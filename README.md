@@ -23,3 +23,4 @@ cp bknad /your/bin/directory
 
 ### To do:
 - [ ] replace files with modified timestamp
+- [ ] add an option to ignore caps (for FAT32)
