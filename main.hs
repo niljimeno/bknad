@@ -26,6 +26,9 @@ main = do
     putStrLn "Files to be removed:"
     printFiles oldFiles
 
+    putStrLn (show ( length newFiles ) ++ " files to be copied")
+    putStrLn (show ( length oldFiles ) ++ " files to be removed")
+
     putStrLn "continue? y/n"
     answer <- getLine
     if answer /= "y" then

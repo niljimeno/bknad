@@ -6,6 +6,12 @@ and deleting files that aren't in the source.
 It's meant to be a simpler replacement to rsync
 that is less resource-intense (useful for USB backups).
 
+Please note that you may get errors
+for the following reasons:
+
+- If the output directory does not exist (just run mkdir for now)
+- If there are invalid characters in the file names (like `:` for instance)
+
 ## Usage
 ```bash
 bknad source target
